@@ -44,3 +44,21 @@ To open an existing project in OpenRefine you can click 'Open Project' from the 
 ### Going Further
 * Look at the other options on the Import screen - try changing some of these options and see how that changes the Preview and how the data appears after import.
 * Do you have access to JSON or XML data? If so the first stage of the import process will prompt you to select a 'record path' - that is the parts of the file that will form the data rows in the OpenRefine project.
+
+Exercise: 
+
+>## Create an OpenRefine Project
+>Download the 'UCSD_Guardian.csv' file to your computer and create a project with it in OpenRefine.
+>
+>>## Solution
+>>~~~
+>>* Run OpenRefine
+>>* Locate the file called which you previously downloaded 'UCSD_Guardian.csv'
+>>* Click 'Next'
+>>* Set the 'Character encoding' to 'UTF-8'
+>>* Ensure the first row is used to create the column headings
+>>* Make sure OpenRefine doesn't try to automatically detect numbers and dates
+
+>>* Once you are happy click 'Create Project >>'
+>>* You should end with the 'UCSD_Guardian.csv' data visible in OpenRefine
+

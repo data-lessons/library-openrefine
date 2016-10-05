@@ -48,6 +48,6 @@ There are also general and specialist tutorials about using OpenRefine available
 * [OpenRefine News (monthly round up of new blog posts, tutorials and other information)](http://openrefine.org/blog.html)
 
 ### Downloading the data
-You need to download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file. Make a note of the location you save the file.
+You need to download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file. Make a note of the location you save the file. If you want to work on the extra exercise, you need to download [UCSD_Guardian.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/UCSD_Guardian.csv) as well.
 
 [template]: {{ site.workshop_repo }}
