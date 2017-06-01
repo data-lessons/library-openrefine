@@ -23,7 +23,7 @@ keypoints:
 
 ## Transforming data
 
-### Introducing Transformations
+### Introducing Transformations 
 
 Through facets, filters and clusters OpenRefine offers relatively straightforward ways of getting an overview of your data, and making changes where you want to standardise terms used to a common set of values.
 
@@ -203,3 +203,19 @@ To get the author name in the natural order you can reverse the array and join i
 * In the Expression box, add to the existing expression until it reads ```value.match(/(.*),(.*)/).reverse().join(" ")```
 * In the Preview view you should be able see this has reversed the array, and joined it back into a string
 * Click 'OK'
+
+> ## Challenge
+> 
+> Transform author names from natural order to Last Name, First Name format. Then split last name and first name into separate column. 
+>
+> > ## Solution
+> > On the Authors column, use the dropdown menu and select Edit cell > transform
+> > In the Expression box, type ```value.match(/(.*) (.*)/).reverse().join(", ")```
+> > On the Authors column, use the dropdown menu and select Edit column > Split into serveral columns...
+> > In the Split column Authors into serveral columns box, select 'by separator', specify comma as the separator
+> > Under After Splitting, uncheck "Remove this column" to keep our original data intact
+> > Click 'OK'
+> > Use the dropdown menu in the newly created columns, select Edit Column > rename this column to rename them to "Last Name" and "First Name"
+> > {: .openrefine}
+> {: .solution}
+{: .challenge}
