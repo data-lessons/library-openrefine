@@ -206,11 +206,16 @@ To get the author name in the natural order you can reverse the array and join i
 
 > ## Challenge
 > 
-> Transform author names from natural order to Last Name, First Name format.
+> Transform author names from natural order to Last Name, First Name format. Then split last name and first name into separate column. 
 >
 > > ## Solution
-> > Edit cell > transform
+> > On the Authors column, use the dropdown menu and select Edit cell > transform
 > > In the Expression box, type ```value.match(/(.*) (.*)/).reverse().join(", ")```
+> > On the Authors column, use the dropdown menu and select Edit column > Split into serveral columns...
+> > In the Split column Authors into serveral columns box, select 'by separator', specify comma as the separator
+> > Under After Splitting, uncheck "Remove this column" to keep our original data intact
+> > Click 'OK'
+> > Use the dropdown menu in the newly created columns, select Edit Column > rename this column to rename them to "Last Name" and "First Name"
 > > {: .openrefine}
 > {: .solution}
 {: .challenge}
