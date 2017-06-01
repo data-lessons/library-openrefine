@@ -13,7 +13,7 @@ keypoints:
 
 ## Importing data
 
-If you haven't already, at this point download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file. Make a note of the location you save the file.
+If you haven't already, at this point download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv)by right clicking on the link (NOTE Safari right click and select **download linked file**; Chrome and Firefox right click and select **save link as**). Make a note of the location you save the file to.
 
 >## What kinds of data files can I import?
 >There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:
