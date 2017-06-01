@@ -209,9 +209,8 @@ To get the author name in the natural order you can reverse the array and join i
 > Transform author names from natural order to Last Name, First Name format.
 >
 > > ## Solution
-> > ~~~
 > > Edit cell > transform
 > > In the Expression box, type ```value.match(/(.*) (.*)/).reverse().join(", ")```
-> > ~~~
+> > {: .openrefine}
 > {: .solution}
 {: .challenge}
