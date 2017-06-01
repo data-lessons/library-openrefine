@@ -26,24 +26,31 @@ If you haven't already, at this point download [doaj-article-sample.csv](https:/
 >* Google Spreadsheet
 {: .callout}
 
->## Exercise 1: Create your first Open Refine project (using provided data)
+>## Exercise 1: Create your first Open Refine project (using provided data, [doaj-article-sample.csv](doaj-article-sample.csv))
 >
 >To import the data for the exercises below, run OpenRefine. *NOTE: If Open Refine does not open in a browser window, open your browser and type the address <http://127.0.0.1:3333/> to take you to the Open Refine interface.*
+>***Put up a red sticky if you can't start Open Refine***.
 >
->1. Locate the file which you have downloaded called `doaj-article-sample.csv`
->2. Click 'Next'
->   
->    The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
->    
->    In this case you need to:
->    
->1. Set the 'Character encoding' to `UTF-8`
->2. Ensure the first row is used to create the column headings
->3. Make sure OpenRefine doesn't try to automatically detect numbers and dates
+>1. Create project and open the data file.
+>2. Make sure your imported data is set to **`UTF-8`**, that the **first row is used as the header**, and that OpenRefine **doesn't automatically detect numbers and dates in your values**.
+>3. Name and create your project.
 >
->    Once you are happy click `Create Project >>`
->
->    This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.
+>>## Solution
+>>1. Locate the file which you have downloaded called `doaj-article-sample.csv`
+>>2. Click `Next`
+>>   
+>>    The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
+>>    
+>>    In this case you need to:
+>>    
+>>1. Set the `Character encoding` to `UTF-8` (Note: click in the cell and it will trigger a pop-up)
+>>2. Ensure the first row is used to create the column headings by selecting `Parse 1 line(s) as column headers` (This is defaulted)
+>>3. Make sure OpenRefine doesn't try to automatically detect numbers and dates by leaving `Parse cell text into numbers, dates, ...` deselected
+>>
+>>    Once you are happy click `Create Project >>`
+>>
+>>    This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.
+>{: .solution}
 {: .challenge}
 
 To open an existing project in OpenRefine you can click 'Open Project' from the main OpenRefine screen (in the left hand menu). When you click this, you will see a list of the existing projects and can click on a project's name to open it.
